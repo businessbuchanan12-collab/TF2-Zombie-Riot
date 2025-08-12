@@ -481,7 +481,7 @@ methodmap RaidbossSilvester < CClotBody
 				}
 				case 3:
 				{
-					CPrintToChatAll("{gold}Silvester{default}: This is already too close, this is too much risk!");
+					CPrintToChatAll("{gold}Silvester{default}: This is already too close; this is too much risk!");
 				}
 			}
 		}
@@ -676,7 +676,7 @@ static void Internal_ClotThink(int iNPC)
 						if(!XenoExtraLogic())
 							CPrintToChatAll("{gold}Silvester{default}: It's over you little..!");
 						else
-							CPrintToChatAll("{gold}Silvester{default}: No no no.. i cant not again..");
+							CPrintToChatAll("{gold}Silvester{default}: No no no.. I can't, not again..");
 					}
 					case 2:
 					{
@@ -868,14 +868,14 @@ static void Internal_ClotThink(int iNPC)
 					if(!XenoExtraLogic())
 						CPrintToChatAll("{gold}Silvester{default}: Why him?? Attack me you bunch of cowards!");
 					else
-						CPrintToChatAll("{gold}Silvester{default}: Dont faint, im here, im here!");
+						CPrintToChatAll("{gold}Silvester{default}: Dont faint, I'm here, I'm here!");
 				}
 				case 3:
 				{
 					if(!XenoExtraLogic())
-						CPrintToChatAll("{gold}Silvester{default}: Hang on, i got this, rest.");
+						CPrintToChatAll("{gold}Silvester{default}: Hang on, I got this, rest.");
 					else
-						CPrintToChatAll("{gold}Silvester{default}: ... if you think ill let that slide...");
+						CPrintToChatAll("{gold}Silvester{default}: ... if you think I'll let that slide...");
 				}
 			}
 		}
@@ -1420,7 +1420,7 @@ public void RaidbossSilvester_OnTakeDamagePost(int victim, int attacker, int inf
 					}
 					case 2:
 					{
-						CPrintToChatAll("{gold}Silvester{default}: You think im weak alone?!");
+						CPrintToChatAll("{gold}Silvester{default}: You think I'm weak alone?!");
 					}
 					case 3:
 					{
@@ -1998,7 +1998,7 @@ bool SharedGiveupSilvester(int entity, int entity2)
 					if(!XenoExtraLogic())
 						CPrintToChatAll("{gold}Silvester{default}: We tried to help, this will be painful for you.");
 					else
-						CPrintToChatAll("{gold}Silvester{default}: You never listen. I will not assist you more.");
+						CPrintToChatAll("{gold}Silvester{default}: You never listen. I will not assist you further.");
 					i_TalkDelayCheck += 1;
 				}
 				case 1:

@@ -371,11 +371,11 @@ public void RaidbossBlueGoggles_ClotThink(int iNPC)
 						}
 						case 2:
 						{
-							CPrintToChatAll("{gold}Silvester{default}: {darkblue}Waldch{default} get back to me now!");
+							CPrintToChatAll("{gold}Silvester{default}: {darkblue}Waldch{default} Get back to me now!");
 						}
 						case 3:
 						{
-							CPrintToChatAll("{gold}Silvester{default}: {darkblue}Waldch{default} get here or ill teleport you here!");
+							CPrintToChatAll("{gold}Silvester{default}: {darkblue}Waldch{default} Get over here or I'll teleport you here!");
 						}
 					}
 				}
@@ -398,7 +398,7 @@ public void RaidbossBlueGoggles_ClotThink(int iNPC)
 						}
 						case 3:
 						{
-							CPrintToChatAll("{gold}Silvester{default}: {darkblue}Waldch{default} here, now STAY NEAR ME!");
+							CPrintToChatAll("{gold}Silvester{default}: {darkblue}Waldch{default} Here, now STAY NEAR ME!");
 						}
 					}
 					float WorldSpaceVec[3]; WorldSpaceCenter(npc.index, WorldSpaceVec);
