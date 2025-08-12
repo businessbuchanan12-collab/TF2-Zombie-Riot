@@ -1084,7 +1084,7 @@ public Action RaidbossBlueGoggles_OnTakeDamage(int victim, int &attacker, int &i
 			RemoveNpcFromEnemyList(npc.index);
 			GiveProgressDelay(28.0);
 			damage = 0.0;
-			CPrintToChatAll("{darkblue}Waldch{default}: You win, I won't stop you no more...");
+			CPrintToChatAll("{darkblue}Waldch{default}: You win, I won't stop you anymore...");
 			return Plugin_Handled;
 		}
 
